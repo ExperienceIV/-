@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #f7f8fb;
-  --surface: #ffffff;
-  --surface-2: #eef2ff;
+  --bg: #eceff5;
+  --surface: #f7f8fb;
+  --surface-2: #dde3f0;
   --text: #111827;
-  --muted: #667085;
-  --line: #e5e7eb;
+  --muted: #5f6879;
+  --line: #cfd5df;
   --accent: #5b5df0;
   --accent-dark: #4547d8;
   --radius: 22px;
@@ -43,9 +43,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(247, 248, 251, 0.86);
+  background: rgba(236, 239, 245, 0.9);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+  border-bottom: 1px solid rgba(207, 213, 223, 0.9);
 }
 
 .nav {
@@ -130,8 +130,8 @@ a {
   z-index: 1;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(247, 248, 251, .95) 0%, rgba(247, 248, 251, .83) 42%, rgba(247, 248, 251, .24) 100%),
-    linear-gradient(180deg, rgba(247, 248, 251, .08), rgba(247, 248, 251, .5));
+    linear-gradient(90deg, rgba(236, 239, 245, .94) 0%, rgba(236, 239, 245, .8) 42%, rgba(236, 239, 245, .18) 100%),
+    linear-gradient(180deg, rgba(236, 239, 245, .05), rgba(236, 239, 245, .42));
 }
 
 .hero > .container {
@@ -291,7 +291,7 @@ h3 {
 }
 
 .section.alt {
-  background: #fff;
+  background: #e3e7ef;
 }
 
 .split {
@@ -469,7 +469,7 @@ h3 {
   }
 
   .hero::after {
-    background: linear-gradient(180deg, rgba(247, 248, 251, .9) 0%, rgba(247, 248, 251, .64) 55%, rgba(247, 248, 251, .86) 100%);
+    background: linear-gradient(180deg, rgba(236, 239, 245, .88) 0%, rgba(236, 239, 245, .58) 55%, rgba(236, 239, 245, .82) 100%);
   }
 
   .cards {
