@@ -246,6 +246,7 @@ h3 {
 }
 
 .hero-card {
+  position: relative;
   padding: 28px;
   border-radius: 30px;
   background:
