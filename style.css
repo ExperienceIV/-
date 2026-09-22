@@ -231,12 +231,29 @@ h3 {
 }
 
 .signal {
+  position: relative;
   width: 54px;
   height: 54px;
   margin-bottom: 42px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, .72);
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #a5b4fc, #6366f1 55%, #312e81);
-  box-shadow: 0 0 42px rgba(99, 102, 241, .5);
+  background: #fff url("assets/pimu-logo.png") center / cover no-repeat;
+  box-shadow:
+    0 0 34px rgba(239, 35, 60, .38),
+    0 10px 24px rgba(0, 0, 0, .24),
+    inset 0 0 0 1px rgba(255, 255, 255, .42);
+}
+
+.signal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 30% 22%, rgba(255, 255, 255, .9) 0 6%, rgba(255, 255, 255, .35) 16%, transparent 38%),
+    linear-gradient(145deg, rgba(255, 255, 255, .32), transparent 48%, rgba(139, 0, 28, .14));
+  pointer-events: none;
 }
 
 .hero-card-label {
