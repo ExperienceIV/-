@@ -116,7 +116,7 @@ a {
 .hero::before {
   content: "";
   position: absolute;
-  z-index: -2;
+  z-index: 0;
   inset: -18px;
   background: url("assets/pimu-building.webp") center 48% / cover no-repeat;
   filter: blur(5px) saturate(.92) contrast(1.08);
@@ -127,7 +127,7 @@ a {
 .hero::after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   inset: 0;
   background:
     linear-gradient(90deg, rgba(247, 248, 251, .95) 0%, rgba(247, 248, 251, .83) 42%, rgba(247, 248, 251, .24) 100%),
@@ -136,7 +136,7 @@ a {
 
 .hero > .container {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hero-grid {
